@@ -32,8 +32,6 @@ namespace GraphicsProgrammingTask4_.Net_Framework_
                 velocity.Y = velocity.Y * -1;
             }
             location = Vector2.Add(location, velocity);
-
-
         }
 
         public void Display(Graphics e)
