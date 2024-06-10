@@ -35,7 +35,7 @@ namespace GraphicsProgrammingTask4_.Net_Framework_
             //this is a very clever way to do it, list dynamically grows with demand for movers
             for (int i = 0; i < 5; i++) // change i number for more/less movers
             {
-                mover = new Mover(this.Width, this.Height);
+                mover = new Mover(this.Width, this.Height, this);
                 movers.Add(mover);
 
             }
